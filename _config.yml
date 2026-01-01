@@ -1,2 +1,5 @@
 title: LondonBlog
 theme: null
+url: "https://london44380.github.io"
+permalink: /:year/:month/:day/:title/
+paginate: 5
