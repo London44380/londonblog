@@ -3,9 +3,7 @@
 ---
 layout: dashboard
 title: "Les Attaques Wifi et Bluetooth"
-date: 2020-01-01
 ---
-# {{ page.title }}
 
 La première méthode ce nomme Evil Twin.
 
