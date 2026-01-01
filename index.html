@@ -1,0 +1,127 @@
+---
+layout: dashboard
+title: FAQ
+---
+<div class="faq-hero">
+  <h1 style="color:#00f5ff;text-align:center;padding:3rem 2rem;font-size:3rem;text-shadow:0 0 30px rgba(0,245,255,0.5);">Frequently Asked Questions</h1>
+</div>
+
+<div class="faq-container">
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>💻</span> What are your favorite programming languages?
+    </div>
+    <div class="faq-answer">
+      I mainly use Python, Rust, Kotlin, HTML, and C++.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>🎨</span> What is your color scheme preference?
+    </div>
+    <div class="faq-answer">
+      I prefer a variant between grey and black. I focus on the attack but for the defense of others.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>📚</span> Do you have formal studies in this field or personal background?
+    </div>
+    <div class="faq-answer">
+      I learn more about cybersecurity for nearly 5 years, it was a huge for me. My portfolio and book are available.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>🌐</span> Where do you share your cybersecurity content and social others?
+    </div>
+    <div class="faq-answer">
+      David Lobal cybersecurity expert. I invite you wish to go and see his quality content.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>💻</span> What hardware do you use with Ryzen 5 processor and 8 GB?
+    </div>
+    <div class="faq-answer">
+      I use LUKS encrypted systems and as my main system, I'm currently running Linux Mint with LUKS.
+      For cybersecurity I use Kali Linux in virtual machine.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>🖥️</span> What operating system are you currently using?
+    </div>
+    <div class="faq-answer">
+      I currently running Linux Mint with LUKS encryption systems and as my main system.
+      For cybersecurity I use Kali Linux in virtual machine. I also use Wifislax and Kali Linux live USB.
+      For cybersecurity and IT mobility Jellyfin, Nextcloud, Seedbox, FTP and VPS.
+      I test with different cyber tools Jellyfin, Nextcloud, Seedbox, FTP and VPS.
+    </div>
+  </div>
+</div>
+
+<style>
+.faq-hero { 
+  background: radial-gradient(circle at center, rgba(0,245,255,0.1) 0%, transparent 70%);
+  padding-bottom: 2rem;
+}
+.faq-container { 
+  max-width: 900px; 
+  margin: 0 auto 4rem; 
+  padding: 0 2rem; 
+}
+.faq-item { 
+  margin-bottom: 1.5rem; 
+  background: #111; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  border-left: 4px solid #00f5ff; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+.faq-question {
+  padding: 1.5rem 2rem;
+  background: #222;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.1rem;
+  transition: background 0.3s;
+}
+.faq-question:hover { background: #333; }
+.faq-question span { 
+  font-size: 1.5rem; 
+  margin-right: 1rem; 
+  flex-shrink: 0;
+}
+.faq-answer {
+  padding: 0 2rem 2rem;
+  color: #eee;
+  line-height: 1.7;
+  background: rgba(255,255,255,0.02);
+  border-top: 1px solid #333;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+.faq-item.active .faq-answer { 
+  padding: 2rem 2rem 2rem; 
+  max-height: 600px; 
+}
+</style>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(question => {
+  question.addEventListener('click', () => {
+    const item = question.parentElement;
+    item.classList.toggle('active');
+  });
+});
+</script>
