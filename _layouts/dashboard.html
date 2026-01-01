@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} - LondonBlog</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/dashboard.css">
+  <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+  {% include header.html %}
+  {{ content }}
+  <script>
+    document.addEventListener('contextmenu', e=>e.preventDefault());
+    document.addEventListener('selectstart', e=>e.preventDefault());
+    document.addEventListener('dragstart', e=>e.preventDefault());
+  </script>
+</body>
+</html>
