@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Grok
+Disallow: /
