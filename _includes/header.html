@@ -1,4 +1,14 @@
-<nav>
-  <a href="{{ site.baseurl }}/" class="tab active">FAQ</a>
-  <a href="{{ site.baseurl }}/pages" class="tab">Pages</a>
-</nav>
+<header>
+  <div class="logo">🔒 LondonBlog</div>
+  <nav>
+    <a href="{{ site.baseurl }}/" class="tab active">FAQ</a>
+    <a href="{{ site.baseurl }}/pages" class="tab">Pages</a>
+    <select onchange="changeLang(this.value)" style="background:#222;color:#ccc;border:1px solid #444;padding:0.5rem;border-radius:8px;font-size:0.9rem;margin-left:1rem;">
+      <option value="fr">🇫🇷 FR</option>
+      <option value="en">🇺🇸 EN</option>
+    </select>
+  </nav>
+</header>
+
+<script>
+function
