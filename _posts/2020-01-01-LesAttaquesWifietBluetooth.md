@@ -1,5 +1,12 @@
 <img width="1113" height="347" alt="Capture d’écran du 2026-01-01 05-29-28" src="https://github.com/user-attachments/assets/47508253-ff84-4235-abfb-9c605015ad70" />
 
+---
+layout: dashboard
+title: "Les Attaques Wifi et Bluetooth"
+date: 2020-01-01
+---
+# {{ page.title }}
+
 La première méthode ce nomme Evil Twin.
 
 
