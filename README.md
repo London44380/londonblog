@@ -1,6 +1,6 @@
 # **LondonBlog**
 *Personal Tech & Cybersecurity Insights*
-📍 Hosted on GitHub Pages   🔒 All Rights Reserved © 2026 **London44380**
+Hosted on GitHub Pages   🔒 All Rights Reserved © 2026 **London44380**
 
 ---
 
